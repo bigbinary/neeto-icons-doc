@@ -9,7 +9,7 @@ export default function IconList({ searchTerm }) {
 	return filteredIconList.length === 0 ? (
 		<div className="px-8 text-sm text-gray-600">No icons found.</div>
 	) : (
-		<div className="grid w-full grid-cols-10 gap-4 px-8 py-4">
+		<div className="grid w-full grid-cols-5 gap-4 px-8 py-4 md:grid-cols-8 lg:grid-cols-10">
 			{filteredIconList.map((name) => (
 				<IconItem key={name} name={name} />
 			))}
