@@ -1,20 +1,14 @@
+import React, { useState } from "react";
+import Header from "./Header";
+import IconList from "./IconList";
+
 function Dashboard() {
+  const [searchTerm, setSearchTerm] = useState("");
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
+      <IconList searchTerm={searchTerm}/>
+    </>
   );
 }
 
