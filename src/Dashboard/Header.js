@@ -14,6 +14,7 @@ export default function Header({ searchTerm, setSearchTerm }) {
 					<a
 						href="https://github.com/bigbinary/neeto-icons#usage"
 						target="_blank"
+						rel="noreferrer"
 						className="flex items-center space-x-0.5 text-sm font-medium text-gray-600 hover:text-gray-900 mr-5"
 					>
 						Usage
@@ -21,6 +22,7 @@ export default function Header({ searchTerm, setSearchTerm }) {
 					<a
 						href="https://github.com/bigbinary/neeto-icons"
 						target="_blank"
+						rel="noreferrer"
 						className="flex items-center space-x-0.5 text-sm font-medium text-gray-600 hover:text-gray-900 mr-8"
 					>
 						<svg
