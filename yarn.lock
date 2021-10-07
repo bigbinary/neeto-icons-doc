@@ -1144,9 +1144,9 @@
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
 "@bigbinary/neeto-icons@latest":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@bigbinary/neeto-icons/-/neeto-icons-1.7.1.tgz#f1817dca2d00537cf953df7404295e1ea558c77f"
-  integrity sha512-V86icIK6j8RAzLI8Q4GT3VSKmUsyJs+YRS4wHa46MrZROm7QJZgS1Gjh3g1Ehj5wCJYayK1wKNlRBa2DTRu1cQ==
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@bigbinary/neeto-icons/-/neeto-icons-1.7.2.tgz#0ea340637aace1c485abffe5fe09b936567a6872"
+  integrity sha512-YHngcWTVp3rivUCz8abkwtuFUrmTepZV1hYA/vYAO0UfIn6H8P5SjPqVvSPo8qwYS4lDaKYl7ZVHIVqSuRfB+g==
   dependencies:
     prop-types "^15.7.2"
     react "^17.0.2"
